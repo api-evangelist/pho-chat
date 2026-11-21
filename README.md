@@ -1,4 +1,4 @@
-# pho-chat
+# Phở Chat
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pho-chat is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pho.chat/
+Phở Chat provides AI-powered citation and research assistance for clinicians, researchers, and pharmacists. It offers real-time, citation‑backed answers, systematic review tools, drug interaction checks, and multi‑agent deep research, all grounded in verified PubMed, DOI, and OpenAlex sources. The platform runs on Google Cloud infrastructure, supports BYOK, and includes free and paid plans for individuals and enterprises.
+
+**Areas:** AI · Healthcare · Research · Citation · Clinical
+
+## Phở Chat on APIs.io
+
+Everything profiled for Phở Chat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pho-chat/](https://apis.io/providers/pho-chat/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Phở Chat Agents API](https://apis.io/apis/pho-chat/pho-chat-agents-api/) — The Agents API from Phở Chat — 1 operation(s) for agents.
+- [Phở Chat Artifacts API](https://apis.io/apis/pho-chat/pho-chat-artifacts-api/) — The Artifacts API from Phở Chat — 1 operation(s) for artifacts.
+- [Phở Chat Runs API](https://apis.io/apis/pho-chat/pho-chat-runs-api/) — The Runs API from Phở Chat — 5 operation(s) for runs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Pho Chat Webhooks](https://apis.io/asyncapis/pho-chat/pho-chat-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Phở Chat Agentic Access](https://apis.io/agentic-access/pho-chat/pho-chat-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentList](https://apis.io/schemas/pho-chat/pho-chat-agent-list/)
+- [ArtifactWithContent](https://apis.io/schemas/pho-chat/pho-chat-artifact-with-content/)
+- [CreateRun](https://apis.io/schemas/pho-chat/pho-chat-create-run/)
+- [EventPage](https://apis.io/schemas/pho-chat/pho-chat-event-page/)
+- [Run](https://apis.io/schemas/pho-chat/pho-chat-run/)
+- [RunDetail](https://apis.io/schemas/pho-chat/pho-chat-run-detail/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pho Chat Context](https://apis.io/jsonld/pho-chat/pho-chat-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Phở Chat API Rules](https://apis.io/rules/pho-chat/pho-chat-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Phở Chat Authentication](https://apis.io/security/pho-chat/pho-chat-authentication/)
+- [Phở Chat Domain Security](https://apis.io/security/pho-chat/pho-chat-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Phở Chat Plans Pricing](https://apis.io/plans/pho-chat/pho-chat-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pho.chat/)
+- [Documentation](https://docs.pho.chat/)
+- [Getting started](https://docs.pho.chat/quickstart)
+- [API reference](https://docs.pho.chat/llms.txt)
+- [Pricing](https://pho.chat/pricing)
+- [Changelog](https://docs.pho.chat/changelog/march-2026)
+- [Terms of service](https://pho.chat/legal/terms)
+- [Privacy policy](https://pho.chat/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.0** — strong · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 52.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pho-chat/](https://apis.io/providers/pho-chat/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Phở Chat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pho-chat/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
